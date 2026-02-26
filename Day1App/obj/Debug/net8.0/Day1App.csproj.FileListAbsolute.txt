@@ -1,0 +1,14 @@
+/home/ootori/csharp_tr/Day1App/bin/Debug/net8.0/Day1App
+/home/ootori/csharp_tr/Day1App/bin/Debug/net8.0/Day1App.deps.json
+/home/ootori/csharp_tr/Day1App/bin/Debug/net8.0/Day1App.runtimeconfig.json
+/home/ootori/csharp_tr/Day1App/bin/Debug/net8.0/Day1App.dll
+/home/ootori/csharp_tr/Day1App/bin/Debug/net8.0/Day1App.pdb
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.GeneratedMSBuildEditorConfig.editorconfig
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.AssemblyInfoInputs.cache
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.AssemblyInfo.cs
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.csproj.CoreCompileInputs.cache
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.dll
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/refint/Day1App.dll
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.pdb
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/Day1App.genruntimeconfig.cache
+/home/ootori/csharp_tr/Day1App/obj/Debug/net8.0/ref/Day1App.dll
