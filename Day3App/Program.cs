@@ -8,15 +8,15 @@ class Day3
         // ここでキャラクターを2体作成し、戦わせる
         // Character hero = new Character("勇者", 100, 20);
         // ...
-        Fighter hero = new Fighter("勇者", 100, 20);
+        Wizard wiz = new Wizard("魔法使い", 100, 20, 50);
         Character slime = new Character("スライム", 300, 5);
 
         while(true)
         {
-            hero.Attack(slime);
+            wiz.Attack(slime);
             if(slime.Hp == 0) break;
-            slime.Attack(hero);
-            if(hero.Hp == 0) break;
+            slime.Attack(wiz);
+            if(wiz.Hp == 0) break;
         }
         
     }
@@ -66,6 +66,27 @@ class Fighter : Character
             Console.WriteLine($"{Name}の攻撃！{target.Name}に{AttackPower*2}のダメージ！");
             target.TakeDamage(AttackPower * 2);
             // 30%の確率でここを通る
+        }
+        else base.Attack(target);
+    }
+}
+
+class Wizard : Character
+{
+    public int MP;
+    public Wizard(string name, int hp, int ap, int mp) : base(name, hp, ap)
+    {
+        MP = mp;
+    }
+    
+    public override void Attack(Character target)
+    {
+        if (MP >= 10)
+        {
+            MP -= 10;
+            Console.WriteLine($"{Name}の魔法攻撃！{target.Name}に{AttackPower*3}のダメージ！");
+            target.TakeDamage(AttackPower * 3);
+        
         }
         else base.Attack(target);
     }
